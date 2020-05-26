@@ -8,8 +8,15 @@
     <PackageIcon>LisecDesktopApp.png</PackageIcon>
     <PackageIconUrl />
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Sammy1531/Utilities</RepositoryUrl>
     <Version>1.1.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+    <PackageProjectUrl>https://github.com/Sammy1531/Utilities</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
