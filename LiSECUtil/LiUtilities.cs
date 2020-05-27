@@ -23,5 +23,17 @@ namespace LiSECUtilities
             Console.WriteLine("String entered " + str);
             return str.ToLower();
         }
+		
+		public static string HelloWorld(string str)
+        {
+            Console.WriteLine("String entered " + str);
+            return str.ToLower();
+        }
+		
+		public static string SayHello(string str)
+        {
+            Console.WriteLine("String entered " + str);
+            return str.ToLower();
+        }
     }
 }

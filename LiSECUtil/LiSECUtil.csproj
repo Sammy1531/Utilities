@@ -11,11 +11,10 @@
     <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Sammy1531/Utilities</RepositoryUrl>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <DebugType>embedded</DebugType>
     <PackageProjectUrl>https://github.com/Sammy1531/Utilities</PackageProjectUrl>
   </PropertyGroup>
 
@@ -25,6 +24,10 @@
       <PackagePath></PackagePath>
     </None>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SourceRoot Include="C:\Users\mukhesou\source\repos\LiSECUtil\" RepositoryUrl="https://github.com/Sammy1531/Utilities" SourceControl="git" RevisionId="22305b53f7984cd79ed3560798bf8950a6d7cb99" />
   </ItemGroup>
 
   <ItemGroup>
